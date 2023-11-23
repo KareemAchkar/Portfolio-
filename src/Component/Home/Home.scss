@@ -1,0 +1,103 @@
+.home-page {
+  .text-Hi {
+    margin-bottom: -80px;
+  }
+
+  h1 {
+    color: #ffffffd9;
+    font-size: 69px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    line-height: 65px;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #00a9c9;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -10px;
+      opacity: 0.6;
+    }
+
+    &::after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore';
+      color: #00a9c9;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 15px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+
+    img {
+      width: 48px;
+      position: relative;
+      margin-left: 18px;
+      margin-right: 2px;
+      opacity: 0;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+}
+
+h2 {
+  color: #8d8d8da3;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+}
+
+.flat-button {
+  color: #00a9c9;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px 14px;
+  border: 2px solid #00a7c9ca;
+  margin-top: 25px;
+  float: left;
+  animation: fadeIn 1s 1.8s backwards;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: #00a9c9;
+    color: #333;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after {
+    display: none;
+  }
+
+  .home-page {
+  .text-zone{
+    position: initial;
+    width: 100%;
+    transform: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .flat-button{
+    float: none;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 135px;
+  }
+  }
+}
