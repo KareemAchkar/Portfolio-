@@ -2,7 +2,7 @@
   "name": "my-presentation",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kareemashkar.github.io/Portfolio-",
+  "homepage": "https://kareemachkar.github.io/Portfolio-",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
