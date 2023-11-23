@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.c202d7c2.css",
+    "main.js": "/my-app/static/js/main.e953cf24.js",
+    "static/js/787.196f2035.chunk.js": "/my-app/static/js/787.196f2035.chunk.js",
+    "static/media/letter-k-icon-png-6.png": "/my-app/static/media/letter-k-icon-png-6.f50c9b1796b673a1ee13.png",
+    "static/media/helvetica-neu.ttf": "/my-app/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/my-app/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/Kletter.png": "/my-app/static/media/Kletter.67bf99f831adf3f0e8ff.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/my-app/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/my-app/index.html",
+    "main.c202d7c2.css.map": "/my-app/static/css/main.c202d7c2.css.map",
+    "main.e953cf24.js.map": "/my-app/static/js/main.e953cf24.js.map",
+    "787.196f2035.chunk.js.map": "/my-app/static/js/787.196f2035.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c202d7c2.css",
+    "static/js/main.e953cf24.js"
+  ]
+}
